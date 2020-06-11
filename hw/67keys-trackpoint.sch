@@ -739,8 +739,6 @@ F 3 "" H 2950 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 1200 2950 1300
-Wire Wire Line
 	9800 4450 9550 4450
 Wire Wire Line
 	9550 4450 9550 4350
@@ -1216,8 +1214,8 @@ $Comp
 L Power_Protection:USBLC6-2SC6 U102
 U 1 1 5EE167D0
 P 2950 1800
-F 0 "U102" H 2950 2381 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 2950 2290 50  0000 C CNN
+F 0 "U102" H 3200 2300 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 3300 2200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2950 1300 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 3150 2150 50  0001 C CNN
 	1    2950 1800
@@ -1233,17 +1231,6 @@ Wire Wire Line
 	3450 1900 3350 1900
 Wire Wire Line
 	2950 2200 2950 2300
-$Comp
-L Connector:USB_C_Plug_USB2.0 P101
-U 1 1 5EE3D2E4
-P 1200 3950
-F 0 "P101" H 1307 4817 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 1307 4726 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1350 3950 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 3950 50  0001 C CNN
-	1    1200 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 2200 1550 2350
 Wire Wire Line
@@ -1321,4 +1308,116 @@ F 3 "" H 1250 6900 50  0001 C CNN
 $EndComp
 Text Notes 1000 1150 0    197  ~ 0
 Verify pinouts\nusb-c
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J104
+U 1 1 5EF1DF37
+P 1150 4000
+F 0 "J104" H 1257 4867 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1257 4776 50  0000 C CNN
+F 2 "" H 1300 4000 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 4000 50  0001 C CNN
+	1    1150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R101
+U 1 1 5EF6EA83
+P 2100 3350
+F 0 "R101" H 2041 3304 50  0000 R CNN
+F 1 "4.7k" H 2041 3395 50  0000 R CNN
+F 2 "" H 2100 3350 50  0001 C CNN
+F 3 "~" H 2100 3350 50  0001 C CNN
+	1    2100 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R115
+U 1 1 5EF70779
+P 2450 3350
+F 0 "R115" H 2391 3304 50  0000 R CNN
+F 1 "4.7k" H 2391 3395 50  0000 R CNN
+F 2 "" H 2450 3350 50  0001 C CNN
+F 3 "~" H 2450 3350 50  0001 C CNN
+	1    2450 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0149
+U 1 1 5EF70AE8
+P 2450 3550
+F 0 "#PWR0149" H 2450 3300 50  0001 C CNN
+F 1 "GND" H 2455 3377 50  0000 C CNN
+F 2 "" H 2450 3550 50  0001 C CNN
+F 3 "" H 2450 3550 50  0001 C CNN
+	1    2450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3600 1900 3600
+Wire Wire Line
+	1900 3600 1900 3150
+Wire Wire Line
+	1900 3150 2450 3150
+Wire Wire Line
+	2450 3150 2450 3250
+Wire Wire Line
+	1750 3700 2000 3700
+Wire Wire Line
+	2000 3700 2000 3200
+Wire Wire Line
+	2000 3200 2100 3200
+Wire Wire Line
+	2100 3200 2100 3250
+Wire Wire Line
+	2100 3450 2450 3450
+Wire Wire Line
+	2450 3450 2450 3550
+Connection ~ 2450 3450
+$Comp
+L power:+5V #PWR0148
+U 1 1 5EF88DD0
+P 1800 3150
+F 0 "#PWR0148" H 1800 3000 50  0001 C CNN
+F 1 "+5V" H 1815 3323 50  0000 C CNN
+F 2 "" H 1800 3150 50  0001 C CNN
+F 3 "" H 1800 3150 50  0001 C CNN
+	1    1800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3400 1800 3400
+Wire Wire Line
+	1800 3400 1800 3150
+NoConn ~ 1750 4500
+NoConn ~ 1750 4600
+$Comp
+L power:GND #PWR0150
+U 1 1 5EF9C1F6
+P 1150 5050
+F 0 "#PWR0150" H 1150 4800 50  0001 C CNN
+F 1 "GND" H 1155 4877 50  0000 C CNN
+F 2 "" H 1150 5050 50  0001 C CNN
+F 3 "" H 1150 5050 50  0001 C CNN
+	1    1150 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4900 1150 4950
+Wire Wire Line
+	850  4900 850  4950
+Wire Wire Line
+	850  4950 1150 4950
+Connection ~ 1150 4950
+Wire Wire Line
+	1150 4950 1150 5050
+Wire Wire Line
+	1750 3900 1750 4000
+Wire Wire Line
+	1750 4100 1750 4200
+Text Label 1750 4200 0    50   ~ 0
+D+
+Text Label 1750 4000 0    50   ~ 0
+D-
+Wire Wire Line
+	2950 1200 2950 1400
 $EndSCHEMATC
