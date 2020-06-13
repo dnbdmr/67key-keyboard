@@ -61,7 +61,7 @@ Text GLabel 6750 4500 2    50   Input ~ 0
 Row2
 Text GLabel 6750 4600 2    50   Input ~ 0
 Row3
-Text GLabel 6750 5100 2    50   Input ~ 0
+Text GLabel 6750 4700 2    50   Input ~ 0
 Row4
 Text GLabel 4600 4150 3    50   Input ~ 0
 Row5
@@ -655,10 +655,6 @@ Wire Wire Line
 	7250 4100 7250 4200
 Wire Wire Line
 	7600 4100 7600 4200
-Wire Wire Line
-	7250 4650 7250 4700
-Wire Wire Line
-	7250 4700 6750 4700
 Wire Wire Line
 	7250 4650 7850 4650
 Wire Wire Line
@@ -1266,4 +1262,8 @@ Text GLabel 6750 4200 2    50   Input ~ 0
 ColM
 Text GLabel 6750 4300 2    50   Input ~ 0
 ColN
+Wire Wire Line
+	7250 5100 6750 5100
+Wire Wire Line
+	7250 4650 7250 5100
 $EndSCHEMATC
