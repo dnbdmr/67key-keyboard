@@ -63,7 +63,7 @@ Text GLabel 6750 4800 2    50   Input ~ 0
 Row3
 Text GLabel 6750 4900 2    50   Input ~ 0
 Row4
-Text GLabel 4600 4150 3    50   Input ~ 0
+Text GLabel 3450 3400 2    50   Input ~ 0
 Row5
 Text Label 4750 3750 2    50   ~ 0
 D-
@@ -124,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 4050 4150 4050
 Wire Wire Line
-	4750 4150 2850 4150
+	4750 4150 3300 4150
 Wire Wire Line
 	4150 3950 4150 4050
 Connection ~ 4150 4050
@@ -1254,4 +1254,24 @@ Text Label 6750 3000 0    50   ~ 0
 APA_DI
 Text Label 6750 3100 0    50   ~ 0
 APA_CI
+$Comp
+L Jumper:Jumper_2_Bridged JP101
+U 1 1 5EF27BAA
+P 3300 3700
+F 0 "JP101" V 3254 3758 50  0000 L CNN
+F 1 "Jumper_2_Bridged" V 3345 3758 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3300 3700 50  0001 C CNN
+F 3 "~" H 3300 3700 50  0001 C CNN
+	1    3300 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 3400 3300 3400
+Wire Wire Line
+	3300 3400 3300 3500
+Wire Wire Line
+	3300 3900 3300 4150
+Connection ~ 3300 4150
+Wire Wire Line
+	3300 4150 2850 4150
 $EndSCHEMATC
