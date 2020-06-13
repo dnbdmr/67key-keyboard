@@ -1015,7 +1015,7 @@ U 1 1 5EDD9C34
 P 2650 4150
 F 0 "J2" H 2800 4200 50  0000 C CNN
 F 1 "SWD" H 2800 4100 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal" H 2650 4150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2650 4150 50  0001 C CNN
 F 3 "~" H 2650 4150 50  0001 C CNN
 	1    2650 4150
 	-1   0    0    -1  
@@ -1295,4 +1295,8 @@ F 3 "~" H 2500 1400 50  0001 C CNN
 	1    2500 1400
 	-1   0    0    1   
 $EndComp
+Text Label 1750 2150 0    50   ~ 0
+Conn_D-
+Text Label 1750 2350 0    50   ~ 0
+Conn_D+
 $EndSCHEMATC
