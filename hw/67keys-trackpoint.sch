@@ -55,20 +55,16 @@ Text GLabel 6750 3600 2    50   Input ~ 0
 ColG
 Text GLabel 6750 3700 2    50   Input ~ 0
 ColH
-Text GLabel 6750 4000 2    50   Input ~ 0
-Row1
-Text GLabel 6750 4100 2    50   Input ~ 0
-Row2
-Text GLabel 6750 4200 2    50   Input ~ 0
-Row3
-Text GLabel 6750 4300 2    50   Input ~ 0
-Row4
 Text GLabel 6750 4400 2    50   Input ~ 0
-Row5
+Row1
 Text GLabel 6750 4500 2    50   Input ~ 0
-Row6
+Row2
 Text GLabel 6750 4600 2    50   Input ~ 0
-Row7
+Row3
+Text GLabel 6750 5100 2    50   Input ~ 0
+Row4
+Text GLabel 4600 4150 3    50   Input ~ 0
+Row5
 Text Label 4750 3750 2    50   ~ 0
 D-
 Text Label 4750 3850 2    50   ~ 0
@@ -655,21 +651,6 @@ Wire Wire Line
 	7200 6350 5500 6350
 Wire Wire Line
 	7200 4800 7200 6350
-$Comp
-L power:+3.3V #PWR036
-U 1 1 60B3CACF
-P 7650 5700
-F 0 "#PWR036" H 7650 5550 50  0001 C CNN
-F 1 "+3.3V" H 7665 5873 50  0000 C CNN
-F 2 "" H 7650 5700 50  0001 C CNN
-F 3 "" H 7650 5700 50  0001 C CNN
-	1    7650 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 5100 6750 6100
-Wire Wire Line
-	6750 6100 7650 6100
 Wire Wire Line
 	7250 4100 7250 4200
 Wire Wire Line
@@ -1208,28 +1189,6 @@ F 3 "http://www.led-color.com/upload/201506/APA102%20LED.pdf" H 4750 6875 50  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small D1
-U 1 1 60B394FA
-P 7650 6000
-F 0 "D1" V 7696 5932 50  0000 R CNN
-F 1 "LED_Small" V 7605 5932 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7650 6000 50  0001 C CNN
-F 3 "~" V 7650 6000 50  0001 C CNN
-	1    7650 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R13
-U 1 1 60B3A872
-P 7650 5800
-F 0 "R13" H 7592 5754 50  0000 R CNN
-F 1 "330" H 7592 5845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 5800 50  0001 C CNN
-F 3 "~" H 7650 5800 50  0001 C CNN
-	1    7650 5800
-	1    0    0    1   
-$EndComp
-$Comp
 L Power_Protection:USBLC6-2SC6 U2
 U 1 1 5EE167D0
 P 3000 2300
@@ -1299,4 +1258,12 @@ Text Label 1750 2150 0    50   ~ 0
 Conn_D-
 Text Label 1750 2350 0    50   ~ 0
 Conn_D+
+Text GLabel 6750 4000 2    50   Input ~ 0
+ColK
+Text GLabel 6750 4100 2    50   Input ~ 0
+ColL
+Text GLabel 6750 4200 2    50   Input ~ 0
+ColM
+Text GLabel 6750 4300 2    50   Input ~ 0
+ColN
 $EndSCHEMATC
