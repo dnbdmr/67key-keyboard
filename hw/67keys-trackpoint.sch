@@ -749,8 +749,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 6400 4800 6400
 Connection ~ 4800 6400
-Text Notes 3100 6750 0    98   ~ 0
-Run at 3V?
 $Comp
 L power:+5V #PWR05
 U 1 1 5F0F1E7F

@@ -8029,8 +8029,8 @@
     )
   )
 
-  (gr_text "TODO:\nAdd Trackpoint Footprint" (at 372.4 73.5) (layer Cmts.User)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (gr_text "TODO:\n- Add Trackpoint Footprint\n- Add mounting holes" (at 372.4 73.5) (layer Cmts.User)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text D-: (at 327.3 97.95 90) (layer F.SilkS)
     (effects (font (size 7 5) (thickness 0.9525)))
