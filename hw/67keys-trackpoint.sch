@@ -39,29 +39,29 @@ Text Label 2600 2400 2    50   ~ 0
 D+
 Text Label 3400 2400 0    50   ~ 0
 D-
-Text GLabel 6750 3000 2    50   Input ~ 0
-ColA
-Text GLabel 6750 3100 2    50   Input ~ 0
-ColB
 Text GLabel 6750 3200 2    50   Input ~ 0
-ColC
+ColA
 Text GLabel 6750 3300 2    50   Input ~ 0
-ColD
+ColB
 Text GLabel 6750 3400 2    50   Input ~ 0
-ColE
+ColC
 Text GLabel 6750 3500 2    50   Input ~ 0
-ColF
+ColD
 Text GLabel 6750 3600 2    50   Input ~ 0
-ColG
+ColE
 Text GLabel 6750 3700 2    50   Input ~ 0
+ColF
+Text GLabel 6750 3800 2    50   Input ~ 0
+ColG
+Text GLabel 6750 3900 2    50   Input ~ 0
 ColH
-Text GLabel 6750 4400 2    50   Input ~ 0
-Row1
-Text GLabel 6750 4500 2    50   Input ~ 0
-Row2
 Text GLabel 6750 4600 2    50   Input ~ 0
-Row3
+Row1
 Text GLabel 6750 4700 2    50   Input ~ 0
+Row2
+Text GLabel 6750 4800 2    50   Input ~ 0
+Row3
+Text GLabel 6750 4900 2    50   Input ~ 0
 Row4
 Text GLabel 4600 4150 3    50   Input ~ 0
 Row5
@@ -565,19 +565,15 @@ Wire Wire Line
 Connection ~ 9750 5900
 Wire Wire Line
 	9750 5650 9750 5600
-Wire Wire Line
-	6750 4900 7100 4900
-Wire Wire Line
-	6750 4800 7200 4800
 $Sheet
 S 8100 3000 900  600 
 U 5F14950E
 F0 "Key Matrix" 50
 F1 "key_matrix.sch" 50
 $EndSheet
-Text GLabel 6750 3800 2    50   Input ~ 0
+Text GLabel 6750 4000 2    50   Input ~ 0
 ColI
-Text GLabel 6750 3900 2    50   Input ~ 0
+Text GLabel 6750 4100 2    50   Input ~ 0
 ColJ
 Wire Wire Line
 	9750 6150 9750 6250
@@ -643,14 +639,6 @@ F 3 "" H 4050 7550 50  0001 C CNN
 	1    4050 7550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7100 4900 7100 6500
-Wire Wire Line
-	7100 6500 5600 6500
-Wire Wire Line
-	7200 6350 5500 6350
-Wire Wire Line
-	7200 4800 7200 6350
 Wire Wire Line
 	7250 4100 7250 4200
 Wire Wire Line
@@ -729,10 +717,6 @@ Wire Wire Line
 	1100 3100 1100 3200
 Text Notes 2000 1100 0    50   ~ 0
 Should be 5.1k±20%
-Wire Wire Line
-	5600 7250 4950 7250
-Wire Wire Line
-	5500 7150 4950 7150
 $Comp
 L power:+3.3V #PWR039
 U 1 1 5EFEB86C
@@ -744,10 +728,6 @@ F 3 "" H 4200 6400 50  0001 C CNN
 	1    4200 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5500 6350 5500 7150
-Wire Wire Line
-	5600 6500 5600 7250
 $Comp
 L power:+3.3V #PWR040
 U 1 1 5F03647B
@@ -1254,16 +1234,24 @@ Text Label 1750 2150 0    50   ~ 0
 Conn_D-
 Text Label 1750 2350 0    50   ~ 0
 Conn_D+
-Text GLabel 6750 4000 2    50   Input ~ 0
-ColK
-Text GLabel 6750 4100 2    50   Input ~ 0
-ColL
 Text GLabel 6750 4200 2    50   Input ~ 0
-ColM
+ColK
 Text GLabel 6750 4300 2    50   Input ~ 0
+ColL
+Text GLabel 6750 4400 2    50   Input ~ 0
+ColM
+Text GLabel 6750 4500 2    50   Input ~ 0
 ColN
 Wire Wire Line
 	7250 5100 6750 5100
 Wire Wire Line
 	7250 4650 7250 5100
+Text Label 4950 7150 0    50   ~ 0
+APA_DI
+Text Label 4950 7250 0    50   ~ 0
+APA_CI
+Text Label 6750 3000 0    50   ~ 0
+APA_DI
+Text Label 6750 3100 0    50   ~ 0
+APA_CI
 $EndSCHEMATC
