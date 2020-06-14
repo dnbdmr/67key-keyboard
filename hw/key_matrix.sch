@@ -343,10 +343,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3900 4600 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SWG5
+L Switch:SW_Push SWF5
 U 1 1 5F30A714
 P 4100 4450
-F 0 "SWG5" H 4100 4735 50  0000 C CNN
+F 0 "SWF5" H 4100 4735 50  0000 C CNN
 F 1 "SPACE" H 4100 4644 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB" H 4100 4650 50  0001 C CNN
 F 3 "" H 4100 4650 50  0001 C CNN
@@ -1531,10 +1531,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4550 4600 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SWF6
+L Switch:SW_Push SWG5
 U 1 1 5EE5AC99
 P 4750 4450
-F 0 "SWF6" H 4750 4735 50  0000 C CNN
+F 0 "SWG5" H 4750 4735 50  0000 C CNN
 F 1 "MB.R" H 4750 4644 50  0000 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4750 4650 50  0001 C CNN
 F 3 "" H 4750 4650 50  0001 C CNN
@@ -1996,4 +1996,67 @@ Wire Wire Line
 	5600 1650 5600 1000
 Wire Wire Line
 	4550 1950 5200 1950
+$Comp
+L Switch:SW_Push SWG5-2
+U 1 1 5EF89B50
+P 4750 5100
+F 0 "SWG5-2" H 4750 5385 50  0000 C CNN
+F 1 "MB.R2" H 4750 5294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 4750 5300 50  0001 C CNN
+F 3 "" H 4750 5300 50  0001 C CNN
+	1    4750 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SWD5-2
+U 1 1 5EF901FF
+P 2900 5100
+F 0 "SWD5-2" H 2900 5385 50  0000 C CNN
+F 1 "MB.L2" H 2900 5294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 2900 5300 50  0001 C CNN
+F 3 "" H 2900 5300 50  0001 C CNN
+	1    2900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SWE5-2
+U 1 1 5EF90F5A
+P 3500 5100
+F 0 "SWE5-2" H 3500 5385 50  0000 C CNN
+F 1 "MB.M2" H 3500 5294 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS" H 3500 5300 50  0001 C CNN
+F 3 "" H 3500 5300 50  0001 C CNN
+	1    3500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4450 3100 5100
+Connection ~ 3100 4450
+Wire Wire Line
+	2700 5100 2600 5100
+Wire Wire Line
+	2600 5100 2600 4450
+Wire Wire Line
+	2600 4450 2700 4450
+Connection ~ 2700 4450
+Wire Wire Line
+	3300 5100 3200 5100
+Wire Wire Line
+	3200 5100 3200 4450
+Wire Wire Line
+	3200 4450 3300 4450
+Connection ~ 3300 4450
+Wire Wire Line
+	3700 4450 3700 5100
+Connection ~ 3700 4450
+Wire Wire Line
+	4550 5100 4450 5100
+Wire Wire Line
+	4450 5100 4450 4450
+Wire Wire Line
+	4450 4450 4550 4450
+Connection ~ 4550 4450
+Wire Wire Line
+	4950 4450 4950 5100
+Connection ~ 4950 4450
 $EndSCHEMATC
