@@ -8,3 +8,5 @@ __TODO__
 - decide on bottom layout
 - figure out mounting between boards
 - adjust designators?
+- APA102 placement?
+- More drawings?
