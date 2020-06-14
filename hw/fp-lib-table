@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 67key-trackpoint)(type KiCad)(uri ${KIPRJMOD}/67key-trackpoint.pretty)(options "")(descr ""))
+)
