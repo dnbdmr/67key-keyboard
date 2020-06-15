@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -537,12 +537,6 @@ Wire Wire Line
 Connection ~ 9750 5900
 Wire Wire Line
 	9750 5650 9750 5600
-$Sheet
-S 8100 3000 900  600 
-U 5F14950E
-F0 "Key Matrix" 50
-F1 "key_matrix.sch" 50
-$EndSheet
 Wire Wire Line
 	9750 6150 9750 6250
 Wire Wire Line
@@ -1355,4 +1349,22 @@ NoConn ~ 6750 4600
 NoConn ~ 6750 4700
 NoConn ~ 6750 4800
 NoConn ~ 6750 4900
+$Sheet
+S 7750 2950 550  400 
+U 5F37C2DC
+F0 "Key Matrix 1" 50
+F1 "key_matrix1.sch" 50
+$EndSheet
+$Sheet
+S 8700 2950 500  400 
+U 5F384BC2
+F0 "Key Matrix 2" 50
+F1 "key_matrix2.sch" 50
+$EndSheet
+$Sheet
+S 9550 2950 550  400 
+U 5F385617
+F0 "Key Matrix 3" 50
+F1 "key_matrix3.sch" 50
+$EndSheet
 $EndSCHEMATC
