@@ -39,32 +39,6 @@ Text Label 2600 2400 2    50   ~ 0
 D+
 Text Label 3400 2400 0    50   ~ 0
 D-
-Text GLabel 6750 3200 2    50   Input ~ 0
-ColA
-Text GLabel 6750 3300 2    50   Input ~ 0
-ColB
-Text GLabel 6750 3400 2    50   Input ~ 0
-ColC
-Text GLabel 6750 3500 2    50   Input ~ 0
-ColD
-Text GLabel 6750 3600 2    50   Input ~ 0
-ColE
-Text GLabel 6750 3700 2    50   Input ~ 0
-ColF
-Text GLabel 6750 3800 2    50   Input ~ 0
-ColG
-Text GLabel 6750 3900 2    50   Input ~ 0
-ColH
-Text GLabel 6750 4600 2    50   Input ~ 0
-Row1
-Text GLabel 6750 4700 2    50   Input ~ 0
-Row2
-Text GLabel 6750 4800 2    50   Input ~ 0
-Row3
-Text GLabel 6750 4900 2    50   Input ~ 0
-Row4
-Text GLabel 3450 3400 2    50   Input ~ 0
-Row5
 Text Label 4750 3750 2    50   ~ 0
 D-
 Text Label 4750 3850 2    50   ~ 0
@@ -123,8 +97,6 @@ Wire Wire Line
 	4750 4900 4250 4900
 Wire Wire Line
 	2850 4050 4150 4050
-Wire Wire Line
-	4750 4150 3300 4150
 Wire Wire Line
 	4150 3950 4150 4050
 Connection ~ 4150 4050
@@ -571,10 +543,6 @@ U 5F14950E
 F0 "Key Matrix" 50
 F1 "key_matrix.sch" 50
 $EndSheet
-Text GLabel 6750 4000 2    50   Input ~ 0
-ColI
-Text GLabel 6750 4100 2    50   Input ~ 0
-ColJ
 Wire Wire Line
 	9750 6150 9750 6250
 Wire Wire Line
@@ -652,8 +620,6 @@ Wire Wire Line
 	7450 5150 7450 5000
 Wire Wire Line
 	7450 5000 6750 5000
-NoConn ~ 3750 7150
-NoConn ~ 3750 7250
 NoConn ~ 9800 4750
 NoConn ~ 9800 4850
 NoConn ~ 9800 4950
@@ -1232,14 +1198,6 @@ Text Label 1750 2150 0    50   ~ 0
 Conn_D-
 Text Label 1750 2350 0    50   ~ 0
 Conn_D+
-Text GLabel 6750 4200 2    50   Input ~ 0
-ColK
-Text GLabel 6750 4300 2    50   Input ~ 0
-ColL
-Text GLabel 6750 4400 2    50   Input ~ 0
-ColM
-Text GLabel 6750 4500 2    50   Input ~ 0
-ColN
 Wire Wire Line
 	7250 5100 6750 5100
 Wire Wire Line
@@ -1252,24 +1210,149 @@ Text Label 6750 3000 0    50   ~ 0
 APA_DI
 Text Label 6750 3100 0    50   ~ 0
 APA_CI
+Wire Wire Line
+	2850 4150 4750 4150
 $Comp
-L Jumper:Jumper_2_Bridged JP101
-U 1 1 5EF27BAA
-P 3300 3700
-F 0 "JP101" V 3254 3758 50  0000 L CNN
-F 1 "Jumper_2_Bridged" V 3345 3758 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3300 3700 50  0001 C CNN
-F 3 "~" H 3300 3700 50  0001 C CNN
-	1    3300 3700
-	0    1    1    0   
+L power:GND #PWR0101
+U 1 1 5EED3A29
+P 3450 7550
+F 0 "#PWR0101" H 3450 7300 50  0001 C CNN
+F 1 "GND" H 3455 7377 50  0000 C CNN
+F 2 "" H 3450 7550 50  0001 C CNN
+F 3 "" H 3450 7550 50  0001 C CNN
+	1    3450 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EED3A33
+P 2850 7550
+F 0 "#PWR0102" H 2850 7300 50  0001 C CNN
+F 1 "GND" H 2855 7377 50  0000 C CNN
+F 2 "" H 2850 7550 50  0001 C CNN
+F 3 "" H 2850 7550 50  0001 C CNN
+	1    2850 7550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2550 7150
+NoConn ~ 2550 7250
+$Comp
+L power:GND #PWR0103
+U 1 1 5EED3A3F
+P 3000 6600
+F 0 "#PWR0103" H 3000 6350 50  0001 C CNN
+F 1 "GND" H 3005 6427 50  0000 C CNN
+F 2 "" H 3000 6600 50  0001 C CNN
+F 3 "" H 3000 6600 50  0001 C CNN
+	1    3000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EED3A49
+P 3600 6600
+F 0 "#PWR0104" H 3600 6350 50  0001 C CNN
+F 1 "GND" H 3605 6427 50  0000 C CNN
+F 2 "" H 3600 6600 50  0001 C CNN
+F 3 "" H 3600 6600 50  0001 C CNN
+	1    3600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5EED3A53
+P 3000 6400
+F 0 "#PWR0105" H 3000 6250 50  0001 C CNN
+F 1 "+3.3V" H 3015 6573 50  0000 C CNN
+F 2 "" H 3000 6400 50  0001 C CNN
+F 3 "" H 3000 6400 50  0001 C CNN
+	1    3000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5EED3A5D
+P 3600 6400
+F 0 "#PWR0106" H 3600 6250 50  0001 C CNN
+F 1 "+3.3V" H 3615 6573 50  0000 C CNN
+F 2 "" H 3600 6400 50  0001 C CNN
+F 3 "" H 3600 6400 50  0001 C CNN
+	1    3600 6400
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 3400 3300 3400
+	2850 6950 2850 6400
 Wire Wire Line
-	3300 3400 3300 3500
+	2850 6400 3000 6400
+Connection ~ 3000 6400
 Wire Wire Line
-	3300 3900 3300 4150
-Connection ~ 3300 4150
+	3450 6950 3450 6400
 Wire Wire Line
-	3300 4150 2850 4150
+	3450 6400 3600 6400
+Connection ~ 3600 6400
+$Comp
+L LED_local:APA102 D101
+U 1 1 5EED3A6D
+P 2850 7250
+F 0 "D101" H 2650 7650 50  0000 C CNN
+F 1 "APA102" H 2650 7550 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_5050-6" H 2900 6950 50  0001 L TNN
+F 3 "http://www.led-color.com/upload/201506/APA102%20LED.pdf" H 2950 6875 50  0001 L TNN
+	1    2850 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_local:APA102 D102
+U 1 1 5EED3A77
+P 3450 7250
+F 0 "D102" H 3250 7650 50  0000 C CNN
+F 1 "APA102" H 3250 7550 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_5050-6" H 3500 6950 50  0001 L TNN
+F 3 "http://www.led-color.com/upload/201506/APA102%20LED.pdf" H 3550 6875 50  0001 L TNN
+	1    3450 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C101
+U 1 1 5EED3A81
+P 3000 6500
+F 0 "C101" H 3092 6546 50  0000 L CNN
+F 1 "100n" H 3092 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 6500 50  0001 C CNN
+F 3 "~" H 3000 6500 50  0001 C CNN
+	1    3000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C102
+U 1 1 5EED3A8B
+P 3600 6500
+F 0 "C102" H 3692 6546 50  0000 L CNN
+F 1 "100n" H 3692 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 6500 50  0001 C CNN
+F 3 "~" H 3600 6500 50  0001 C CNN
+	1    3600 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 3800 2    50   Input ~ 0
+SW_DI
+Text GLabel 6750 3900 2    50   Input ~ 0
+SW_CP
+Text GLabel 6750 4000 2    50   Input ~ 0
+~SW_PL
+NoConn ~ 6750 3200
+NoConn ~ 6750 3300
+NoConn ~ 6750 3400
+NoConn ~ 6750 3500
+NoConn ~ 6750 3600
+NoConn ~ 6750 3700
+NoConn ~ 6750 4100
+NoConn ~ 6750 4200
+NoConn ~ 6750 4300
+NoConn ~ 6750 4400
+NoConn ~ 6750 4500
+NoConn ~ 6750 4600
+NoConn ~ 6750 4700
+NoConn ~ 6750 4800
+NoConn ~ 6750 4900
 $EndSCHEMATC

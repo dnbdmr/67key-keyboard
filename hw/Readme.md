@@ -10,3 +10,5 @@ __TODO__
 - adjust designators?
 - APA102 placement?
 - More drawings?
+- change tp conn to top contact?
+- make bottom mounting board
