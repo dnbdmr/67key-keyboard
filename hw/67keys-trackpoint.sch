@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -1367,4 +1367,6 @@ U 5F385617
 F0 "Key Matrix 3" 50
 F1 "key_matrix3.sch" 50
 $EndSheet
+Text Notes 8600 2750 0    50   ~ 0
+Use Heirarchal sheets
 $EndSCHEMATC
