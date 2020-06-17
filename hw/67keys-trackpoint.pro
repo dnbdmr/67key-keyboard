@@ -1,4 +1,4 @@
-update=Sat 13 Jun 2020 08:42:52 AM PDT
+update=Tue 16 Jun 2020 06:45:22 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=67keys-trackpoint.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -71,7 +71,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0.2
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
