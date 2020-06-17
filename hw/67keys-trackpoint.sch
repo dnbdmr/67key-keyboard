@@ -946,8 +946,6 @@ U 5F385617
 F0 "Key Matrix 3" 50
 F1 "key_matrix3.sch" 50
 $EndSheet
-Text Notes 8600 2050 0    50   ~ 0
-Use Heirarchal sheets
 Wire Wire Line
 	7750 3500 7500 3500
 Wire Wire Line
@@ -968,8 +966,8 @@ Wire Wire Line
 	6950 3400 6950 3800
 Wire Wire Line
 	6950 3800 6750 3800
-Text Notes 7050 3300 0    50   ~ 0
- Source termination\n       short
+Text Notes 6950 3350 0    50   ~ 0
+ Source termination\n       (short)
 Wire Wire Line
 	6950 3400 7750 3400
 $Comp
@@ -1459,4 +1457,12 @@ F 3 "~" H 7450 5550 50  0001 C CNN
 	1    7450 5550
 	0    1    1    0   
 $EndComp
+Text Notes 7100 3000 0    50   ~ 0
+SC1.0
+Text Notes 7100 3100 0    50   ~ 0
+SC1.1
+Text Notes 8150 3550 0    50   ~ 0
+SC0.1/SCA2.1
+Text Notes 8150 3650 0    50   ~ 0
+SC0.2/SCA2.2
 $EndSCHEMATC
