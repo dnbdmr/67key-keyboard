@@ -1556,19 +1556,8 @@ Wire Wire Line
 	6800 4800 6200 4800
 Wire Wire Line
 	6800 6050 7100 6050
-$Comp
-L Memory_EEPROM:24AA02-OT U13
-U 1 1 5F12E22B
-P 1300 6250
-F 0 "U13" H 971 6296 50  0000 R CNN
-F 1 "24AA02-OT" H 971 6205 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1300 6250 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21709J.pdf" H 1300 6250 50  0001 C CNN
-	1    1300 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1300 6550 1300 6750
+	1300 6550 1300 6600
 $Comp
 L Device:R_Small R89
 U 1 1 5F13FC86
@@ -1657,4 +1646,22 @@ Wire Wire Line
 	6400 3300 6400 4200
 Wire Wire Line
 	6450 3400 6200 3400
+$Comp
+L Memory_EEPROM:AT24CS16-STUM U13
+U 1 1 5F5BF588
+P 1300 6250
+F 0 "U13" H 900 6000 50  0000 R CNN
+F 1 "AT24C16C-STUM" H 1150 5900 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1300 6250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8859-SEEPROM-AT24CS16-Datasheet.pdf" H 1300 6250 50  0001 C CNN
+	1    1300 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6350 1700 6600
+Wire Wire Line
+	1700 6600 1300 6600
+Connection ~ 1300 6600
+Wire Wire Line
+	1300 6600 1300 6750
 $EndSCHEMATC
