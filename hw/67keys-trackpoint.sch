@@ -487,8 +487,6 @@ Wire Wire Line
 	7700 4400 7700 5150
 Connection ~ 7700 5150
 Wire Wire Line
-	7700 5150 7600 5150
-Wire Wire Line
 	8050 4350 8050 4100
 Wire Wire Line
 	8400 4850 8400 4550
@@ -607,9 +605,6 @@ Wire Wire Line
 	7400 4650 7850 4650
 Wire Wire Line
 	7400 4400 7400 4650
-Connection ~ 7400 4650
-Wire Wire Line
-	7600 5150 7600 5000
 NoConn ~ 9800 4750
 NoConn ~ 9800 4850
 NoConn ~ 9800 4950
@@ -814,8 +809,6 @@ Text Label 1750 2150 0    50   ~ 0
 Conn_D-
 Text Label 1750 2350 0    50   ~ 0
 Conn_D+
-Wire Wire Line
-	7400 4650 7400 5100
 Text Label 5650 7200 0    50   ~ 0
 APA_DI
 Text Label 5650 7300 0    50   ~ 0
@@ -911,8 +904,6 @@ SW_CP
 Text GLabel 7750 3600 2    50   Input ~ 0
 ~SW_PL
 NoConn ~ 6200 3200
-NoConn ~ 6200 3300
-NoConn ~ 6200 3400
 NoConn ~ 6200 3500
 NoConn ~ 6200 3600
 NoConn ~ 6200 3700
@@ -1450,10 +1441,6 @@ SC0.1/SCA2.1
 Text Notes 8150 3650 0    50   ~ 0
 SC0.2/SCA2.2
 Wire Wire Line
-	6200 5100 7400 5100
-Wire Wire Line
-	6200 5000 7600 5000
-Wire Wire Line
 	6200 4900 6900 4900
 Wire Wire Line
 	6200 3800 6950 3800
@@ -1647,4 +1634,27 @@ U 5F2AB31A
 F0 "Mounting Holes" 50
 F1 "mounting_holes.sch" 50
 $EndSheet
+Wire Wire Line
+	6450 3400 6450 4150
+Wire Wire Line
+	6450 4150 7300 4150
+Wire Wire Line
+	7300 4150 7300 4650
+Wire Wire Line
+	7300 4650 7400 4650
+Connection ~ 7400 4650
+Wire Wire Line
+	7250 5150 7250 4200
+Wire Wire Line
+	7250 4200 6400 4200
+Wire Wire Line
+	7250 5150 7700 5150
+NoConn ~ 6200 5000
+NoConn ~ 6200 5100
+Wire Wire Line
+	6400 3300 6200 3300
+Wire Wire Line
+	6400 3300 6400 4200
+Wire Wire Line
+	6450 3400 6200 3400
 $EndSCHEMATC
