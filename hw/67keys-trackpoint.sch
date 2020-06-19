@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -1641,4 +1641,10 @@ Connection ~ 1850 6150
 Wire Wire Line
 	1850 6150 2300 6150
 NoConn ~ 6200 4200
+$Sheet
+S 9550 2950 550  400 
+U 5F2AB31A
+F0 "Mounting Holes" 50
+F1 "mounting_holes.sch" 50
+$EndSheet
 $EndSCHEMATC
