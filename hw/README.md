@@ -1,13 +1,13 @@
 67 key #Keyboard with trackpoint
 
 __TODO__
-- verify tp pinout and wiring
-- make tp footprint and mount
-- add mounting holes all over
-- figure out mounting between boards
-- APA102 placement?
-- More drawings?
-- make bottom mounting board
-+ add redundant buttons for mouse
-+ adjust designators?
-+ change tp conn to top contact?
+[ ] figure out mounting between boards
+[ ] APA102 placement?
+[ ] More drawings?
+[ ] make bottom mounting board
+[x] make tp footprint and mount
+[x] add mounting holes all over
+[x] verify tp pinout and wiring
+[x] add redundant buttons for mouse
+[x] adjust designators?
+[x] change tp conn to top contact?
