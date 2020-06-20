@@ -904,11 +904,7 @@ SW_CP
 Text GLabel 7750 3600 2    50   Input ~ 0
 ~SW_PL
 NoConn ~ 6200 3200
-NoConn ~ 6200 3500
-NoConn ~ 6200 3600
-NoConn ~ 6200 3700
 NoConn ~ 6200 4100
-NoConn ~ 6200 4300
 NoConn ~ 6200 4600
 NoConn ~ 6200 4700
 $Sheet
@@ -1616,7 +1612,6 @@ Wire Wire Line
 Connection ~ 1850 6150
 Wire Wire Line
 	1850 6150 2300 6150
-NoConn ~ 6200 4200
 $Sheet
 S 9550 2950 550  400 
 U 5F2AB31A
@@ -1624,9 +1619,9 @@ F0 "Mounting Holes" 50
 F1 "mounting_holes.sch" 50
 $EndSheet
 Wire Wire Line
-	6450 3400 6450 4150
+	6850 3400 6850 4150
 Wire Wire Line
-	6450 4150 7300 4150
+	6850 4150 7300 4150
 Wire Wire Line
 	7300 4150 7300 4650
 Wire Wire Line
@@ -1635,17 +1630,17 @@ Connection ~ 7400 4650
 Wire Wire Line
 	7250 5150 7250 4200
 Wire Wire Line
-	7250 4200 6400 4200
+	7250 4200 6800 4200
 Wire Wire Line
 	7250 5150 7700 5150
 NoConn ~ 6200 5000
 NoConn ~ 6200 5100
 Wire Wire Line
-	6400 3300 6200 3300
+	6800 3300 6200 3300
 Wire Wire Line
-	6400 3300 6400 4200
+	6800 3300 6800 4200
 Wire Wire Line
-	6450 3400 6200 3400
+	6850 3400 6200 3400
 $Comp
 L Memory_EEPROM:AT24CS16-STUM U13
 U 1 1 5F5BF588
@@ -1664,4 +1659,49 @@ Wire Wire Line
 Connection ~ 1300 6600
 Wire Wire Line
 	1300 6600 1300 6750
+$Comp
+L power:GND #PWR0112
+U 1 1 5EF36371
+P 7050 2850
+F 0 "#PWR0112" H 7050 2600 50  0001 C CNN
+F 1 "GND" H 7055 2677 50  0000 C CNN
+F 2 "" H 7050 2850 50  0001 C CNN
+F 3 "" H 7050 2850 50  0001 C CNN
+	1    7050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3200 6850 3200
+Wire Wire Line
+	6850 2650 7050 2650
+Wire Wire Line
+	6550 3250 6900 3250
+Wire Wire Line
+	6900 3250 6900 2750
+Wire Wire Line
+	6900 2750 7050 2750
+NoConn ~ 6200 3500
+Wire Wire Line
+	6850 3200 6850 2650
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5EF682CD
+P 7250 2750
+F 0 "J5" H 7222 2774 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 7222 2683 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7250 2750 50  0001 C CNN
+F 3 "~" H 7250 2750 50  0001 C CNN
+	1    7250 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4200 6200 4200
+Wire Wire Line
+	6500 3200 6500 4200
+Wire Wire Line
+	6200 4300 6550 4300
+Wire Wire Line
+	6550 3250 6550 4300
+NoConn ~ 6200 3600
+NoConn ~ 6200 3700
 $EndSCHEMATC
