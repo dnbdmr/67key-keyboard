@@ -1097,7 +1097,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS165" H 8200 2150 50  0001 C CNN
 	1    8200 2150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1900 1450
 Wire Wire Line
 	7550 3500 7400 3500
 Wire Wire Line
@@ -1270,4 +1269,19 @@ Text Label 3850 1100 0    50   ~ 0
 SW_DO1
 Text Label 6550 1100 0    50   ~ 0
 SW_DO2
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EF06F99
+P 1650 1300
+F 0 "#PWR?" H 1650 1150 50  0001 C CNN
+F 1 "+3.3V" H 1665 1473 50  0000 C CNN
+F 2 "" H 1650 1300 50  0001 C CNN
+F 3 "" H 1650 1300 50  0001 C CNN
+	1    1650 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1450 1650 1450
+Wire Wire Line
+	1650 1450 1650 1300
 $EndSCHEMATC
