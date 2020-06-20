@@ -1,4 +1,4 @@
-#Keyboard with trackpoint
+67 key #Keyboard with trackpoint
 
 __TODO__
 - verify tp pinout and wiring
