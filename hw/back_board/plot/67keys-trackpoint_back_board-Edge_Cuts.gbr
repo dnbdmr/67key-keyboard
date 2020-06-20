@@ -1,0 +1,26 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,5.1.6+dfsg1-1~bpo10+1*%
+%TF.CreationDate,2020-06-20T13:37:57-07:00*%
+%TF.ProjectId,67keys-trackpoint_back_board,36376b65-7973-42d7-9472-61636b706f69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.1.6+dfsg1-1~bpo10+1) date 2020-06-20 13:37:57*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X32385000Y-50927000D02*
+X356235000Y-50927000D01*
+X32385000Y-50927000D02*
+X32385000Y-165227000D01*
+X356108000Y-165227000D02*
+X32385000Y-165227000D01*
+X356235000Y-50927000D02*
+X356108000Y-165227000D01*
+M02*
