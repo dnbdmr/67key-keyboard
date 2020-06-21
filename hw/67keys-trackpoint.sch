@@ -4,10 +4,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 5
-Title ""
+Title "67 Keyboard with Trackpoint"
 Date ""
-Rev ""
-Comp ""
+Rev "A"
+Comp "DNBDMR"
 Comment1 ""
 Comment2 ""
 Comment3 ""

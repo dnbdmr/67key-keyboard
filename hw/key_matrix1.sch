@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
-Title ""
+Title "67 Keyboard with Trackpoint"
 Date ""
-Rev ""
-Comp ""
+Rev "A"
+Comp "DNBDMR"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1270,10 +1270,10 @@ SW_DO1
 Text Label 6550 1100 0    50   ~ 0
 SW_DO2
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0113
 U 1 1 5EF06F99
 P 1650 1300
-F 0 "#PWR?" H 1650 1150 50  0001 C CNN
+F 0 "#PWR0113" H 1650 1150 50  0001 C CNN
 F 1 "+3.3V" H 1665 1473 50  0000 C CNN
 F 2 "" H 1650 1300 50  0001 C CNN
 F 3 "" H 1650 1300 50  0001 C CNN
