@@ -904,7 +904,6 @@ SW_CP
 Text GLabel 7750 3600 2    50   Input ~ 0
 ~SW_PL
 NoConn ~ 6200 3200
-NoConn ~ 6200 4100
 NoConn ~ 6200 4600
 NoConn ~ 6200 4700
 $Sheet
@@ -1704,4 +1703,6 @@ Wire Wire Line
 	6550 3250 6550 4300
 NoConn ~ 6200 3600
 NoConn ~ 6200 3700
+Text GLabel 6200 4100 2    50   Input ~ 0
+SPACE
 $EndSCHEMATC

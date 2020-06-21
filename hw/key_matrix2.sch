@@ -1440,4 +1440,9 @@ F 3 "~" H 8000 1050 50  0001 C CNN
 	1    8000 1050
 	1    0    0    -1  
 $EndComp
+Text GLabel 1100 5100 0    50   Input ~ 0
+SPACE
+Wire Wire Line
+	1100 5100 1400 5100
+Connection ~ 1400 5100
 $EndSCHEMATC
