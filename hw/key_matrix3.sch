@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "67 Keyboard with Trackpoint"
-Date ""
+Date "2020-06-22"
 Rev "A"
 Comp "DNBDMR"
 Comment1 ""

@@ -12,6 +12,7 @@
   (page B)
   (title_block
     (title "67 Keyboard with Trackpoint")
+    (date 2020-06-22)
     (rev A)
     (company DNBDMR)
   )
@@ -36,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (trace_clearance 0.1524)
@@ -84,7 +85,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
@@ -11460,7 +11461,7 @@
   (segment (start 195.323424 133.2484) (end 193.647024 131.572) (width 0.254) (layer B.Cu) (net 122))
   (segment (start 204.924914 133.2484) (end 195.323424 133.2484) (width 0.254) (layer B.Cu) (net 122))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5EE978DE) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5EF1DB39) (hatch edge 0.508)
     (connect_pads (clearance 0.381))
     (min_thickness 0.2032)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.254))
@@ -15962,7 +15963,7 @@
       )
     )
   )
-  (zone (net 3) (net_name +3V3) (layer F.Cu) (tstamp 5EE978DB) (hatch edge 0.508)
+  (zone (net 3) (net_name +3V3) (layer F.Cu) (tstamp 5EF1DB36) (hatch edge 0.508)
     (connect_pads (clearance 0.381))
     (min_thickness 0.2032)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.254))
