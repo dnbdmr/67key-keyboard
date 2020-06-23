@@ -1705,4 +1705,6 @@ NoConn ~ 6200 3600
 NoConn ~ 6200 3700
 Text GLabel 6200 4100 2    50   Input ~ 0
 SPACE
+Text Notes 8150 3450 0    50   ~ 0
+SC0.0/SCA2.0
 $EndSCHEMATC
