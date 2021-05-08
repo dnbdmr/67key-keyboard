@@ -1,4 +1,4 @@
-#67 key Keyboard with trackpoint
+# 67 key Keyboard with trackpoint
 
 __Hardware__
 - 25x Splined Press-Fit Threaded Standoffs with Open End, Miniature, 3.2mm OD, 3mm Long. McMaster 92985A818. $4.12
