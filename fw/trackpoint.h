@@ -40,6 +40,7 @@ void tp_reset(void);
 uint8_t tp_readFromRamLocation(uint8_t location);
 void tp_setSensitivityFactor(uint8_t sensitivityFactor);
 void tp_writeToRamLocation(uint8_t location, uint8_t value);
+void tp_forceRecal(void);
 
 extern uint32_t millis(void);
 

@@ -157,18 +157,18 @@ void tud_suspend_cb(bool remote_wakeup_en)
 
 	/* Enable spacebar interrupt, disable systick, and go to sleep
 	 * EIC setup and EIC_Handler are in trackpoint.c */
-	EIC->INTENSET.reg = EIC_INTENSET_EXTINT11; //enable spacebar interrupt
+	EIC->INTENSET.reg = EIC_INTENSET_EXTINT11; // Enable spacebar interrupt
 	EIC->CONFIG[0].bit.SENSE4 = EIC_CONFIG_SENSE4_LOW_Val; //TP_CLK
 
-	delay_ms(2);
+	// delay_ms(2);
 
-	SysTick->CTRL &= ~(SysTick_CTRL_TICKINT_Msk); //disable systick interrupt
-	PM->SLEEP.reg |= PM_SLEEP_IDLE(2);	// Set idle
+	SysTick->CTRL &= ~(SysTick_CTRL_ENABLE_Msk); // Disable systick
+	// PM->SLEEP.reg |= PM_SLEEP_IDLE(2);	// Set idle
 	//SCB->SCR |= SCB_SCR_SLEEPDEEP_Msk;	// Set deep sleep, not working
 
 	__WFI();
 
-	SysTick->CTRL |= SysTick_CTRL_TICKINT_Msk; //enable systick interrupt
+	SysTick->CTRL |= SysTick_CTRL_ENABLE_Msk; // Enable systick
 }
 
 // Invoked when usb bus is resumed
@@ -470,6 +470,8 @@ int main(void)
 				config.debug = !config.debug;
 				cdc_write_num(config.debug, 10);
 				tud_cdc_write_char('\n');
+			} else if (s[0] == 'R') {
+				tp_forceRecal();
 			} else if (s[0] == 'r') {
 				cdc_write_num(tp_readFromRamLocation(0x4a), 10);
 				tud_cdc_write_char('\n');

@@ -14,6 +14,7 @@
 - [ ] Set up Fn lock
 - [ ] Make menu/help, move to config.c?
 - [ ] Intermittent wake up from sleep after putting computer to sleep. Doesn't
+- [ ] implement idle rate switch
   wake up computer.
 - [x] sends 3 reports whenever any key changes. problem?
 - [x] limit scrolling to 1 at a time.

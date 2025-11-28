@@ -238,6 +238,14 @@ void tp_writeToRamLocation(uint8_t location, uint8_t value) {
 	tp_read(); // ACK
 }
 
+void tp_forceRecal(void)
+{
+	tp_write(0xe2);
+	tp_read(); // ACK
+	tp_write(0x51);
+	tp_read(); // ACK
+}
+
 void tp_setStreamMode(void)
 {
 	tp_write(0xea);
