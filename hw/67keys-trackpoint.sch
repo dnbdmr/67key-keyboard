@@ -966,7 +966,7 @@ Wire Wire Line
 Text Label 9800 5050 2    50   ~ 0
 TP_RESET
 $Comp
-L MCU_Microchip_SAMD:ATSAMD21E18A-A U2
+L 67keys-trackpoint-rescue:ATSAMD21E18A-A-MCU_Microchip_SAMD U2
 U 1 1 5ED5A4E0
 P 5200 4050
 F 0 "U2" H 4750 2550 50  0000 C CNN
@@ -1252,7 +1252,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 8800 5800 50  000
 	0    1    1    0   
 $EndComp
 $Comp
-L LED_local:APA102 D3
+L 67keys-trackpoint-rescue:APA102-LED_local D3
 U 1 1 5EF88AC3
 P 4750 7300
 F 0 "D3" H 4550 7700 50  0000 C CNN
@@ -1263,7 +1263,7 @@ F 3 "http://www.led-color.com/upload/201506/APA102%20LED.pdf" H 4850 6925 50  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED_local:APA102 D4
+L 67keys-trackpoint-rescue:APA102-LED_local D4
 U 1 1 5EF92419
 P 5350 7300
 F 0 "D4" H 5150 7700 50  0000 C CNN
@@ -1340,7 +1340,7 @@ F 3 "~" H 2500 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_local:APA102 D1
+L 67keys-trackpoint-rescue:APA102-LED_local D1
 U 1 1 5EED3A6D
 P 3550 7300
 F 0 "D1" H 3350 7700 50  0000 C CNN
@@ -1351,7 +1351,7 @@ F 3 "http://www.led-color.com/upload/201506/APA102%20LED.pdf" H 3650 6925 50  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED_local:APA102 D2
+L 67keys-trackpoint-rescue:APA102-LED_local D2
 U 1 1 5EED3A77
 P 4150 7300
 F 0 "D2" H 3950 7700 50  0000 C CNN
