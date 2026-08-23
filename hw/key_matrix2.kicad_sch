@@ -5845,7 +5845,7 @@
 			(uuid "b29f116e-ed34-43a7-822b-ddcba695d973")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "U?")
 					(unit 1)
@@ -5882,7 +5882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 39.37 0)
 			(effects
 				(font
@@ -5915,7 +5915,7 @@
 			(uuid "d1c8d680-d8e0-47de-82fc-57699b91d6ea")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -5952,7 +5952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 41.91 0)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 			(uuid "41e5a775-3d83-48d1-8441-25bef437143b")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -6022,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 44.45 0)
 			(effects
 				(font
@@ -6055,7 +6055,7 @@
 			(uuid "8a357456-340b-4993-ad9d-652d9884d1d5")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -6092,7 +6092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 46.99 0)
 			(effects
 				(font
@@ -6125,7 +6125,7 @@
 			(uuid "348246b0-ba38-4622-8030-c2bccdedc886")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -6162,7 +6162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 49.53 0)
 			(effects
 				(font
@@ -6195,7 +6195,7 @@
 			(uuid "5d4b5193-f579-49ac-93a7-8b5ecdb6c038")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -6232,7 +6232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 52.07 0)
 			(effects
 				(font
@@ -6265,7 +6265,7 @@
 			(uuid "d87bbf4e-415b-4e96-ad28-80e17cd6aab7")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -6302,7 +6302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 54.61 0)
 			(effects
 				(font
@@ -6335,7 +6335,7 @@
 			(uuid "06b465ad-1064-4d99-a4ae-a75bca805db6")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -6372,7 +6372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 26.67 57.15 0)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 			(uuid "e280fa8f-9471-4949-a8bf-42019265d22c")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -6473,7 +6473,7 @@
 			(uuid "dbaf36dc-5702-4314-9d01-e9c680b210e6")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -6541,7 +6541,7 @@
 			(uuid "b326f192-5499-4cb0-bbf0-d4171e74496b")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -6609,7 +6609,7 @@
 			(uuid "581e795b-6e40-41c6-b158-a3984980ce44")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -6648,7 +6648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 54.61 25.4 0)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 			(uuid "cb78cf9a-b7e8-4744-8126-c0d12a3d891d")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "C?")
 					(unit 1)
@@ -6749,7 +6749,7 @@
 			(uuid "0e9bd6e1-43b3-4fcd-b300-ebc5fb060d57")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -6817,7 +6817,7 @@
 			(uuid "10edf702-6533-469f-97cc-9bd472342b03")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -6929,7 +6929,7 @@
 			(uuid "9ed85762-89a0-445c-ba19-9c6301639d7a")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "U?")
 					(unit 1)
@@ -6966,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -6999,7 +6999,7 @@
 			(uuid "8ef6c8c7-2793-43d2-8d5d-2267a2f02b56")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7036,7 +7036,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 41.91 0)
 			(effects
 				(font
@@ -7069,7 +7069,7 @@
 			(uuid "47f1f0ef-20d2-4635-9539-4d14ef6b4b38")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7106,7 +7106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 44.45 0)
 			(effects
 				(font
@@ -7139,7 +7139,7 @@
 			(uuid "d0f8c2ef-3ff4-4bdc-a1b4-a0d35df5d7a0")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7176,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 46.99 0)
 			(effects
 				(font
@@ -7209,7 +7209,7 @@
 			(uuid "0a06ff7e-80e7-4580-833c-cf82a81ee3e3")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7246,7 +7246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -7279,7 +7279,7 @@
 			(uuid "d57b8bc5-23b3-43e7-ac72-386036263971")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7316,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 52.07 0)
 			(effects
 				(font
@@ -7349,7 +7349,7 @@
 			(uuid "980b96c7-c6be-4b4a-a63b-50e815469e2f")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7386,7 +7386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -7419,7 +7419,7 @@
 			(uuid "39d78728-87d1-4745-8e2c-b24218a88eb9")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7456,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -7489,7 +7489,7 @@
 			(uuid "c5f36792-ece3-488c-af15-787fd730a2cc")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -7557,7 +7557,7 @@
 			(uuid "40509ba9-66da-460b-abc6-937636906324")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -7625,7 +7625,7 @@
 			(uuid "88b1f834-b98e-4150-8931-d0aa986e277b")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -7693,7 +7693,7 @@
 			(uuid "37721241-8ac8-474b-bc38-6a9ce65b99c5")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -7732,7 +7732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 125.73 25.4 0)
 			(effects
 				(font
@@ -7765,7 +7765,7 @@
 			(uuid "f2057303-b07c-4112-8d7c-0cf0fd3c3b1d")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "C?")
 					(unit 1)
@@ -7833,7 +7833,7 @@
 			(uuid "6dac6bd5-61aa-4856-b20b-18845249c87e")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -7901,7 +7901,7 @@
 			(uuid "6e0c0d6d-7855-49df-9773-db2e4e6df9ef")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -8013,7 +8013,7 @@
 			(uuid "d574b88d-9c7e-4443-9e79-638d724f98c0")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "U?")
 					(unit 1)
@@ -8050,7 +8050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 40.64 0)
 			(effects
 				(font
@@ -8083,7 +8083,7 @@
 			(uuid "8eea632b-655e-48bf-aa9a-56b6c80b0332")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8120,7 +8120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -8153,7 +8153,7 @@
 			(uuid "1378ff0f-ba9e-419e-9c41-bbf91989a0a4")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8190,7 +8190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 45.72 0)
 			(effects
 				(font
@@ -8223,7 +8223,7 @@
 			(uuid "1e1e3d33-d4b2-40f0-a9b5-865e56230a91")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8260,7 +8260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 48.26 0)
 			(effects
 				(font
@@ -8293,7 +8293,7 @@
 			(uuid "d3688e4a-bb1a-4f2c-9720-a3f9b77eaca3")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8330,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 50.8 0)
 			(effects
 				(font
@@ -8363,7 +8363,7 @@
 			(uuid "3b2b0587-ef4a-4eaa-bc67-e58f00fcf1cf")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8400,7 +8400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 53.34 0)
 			(effects
 				(font
@@ -8433,7 +8433,7 @@
 			(uuid "1556ecc7-7713-49c3-baf6-d3fb69149cde")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8470,7 +8470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 55.88 0)
 			(effects
 				(font
@@ -8503,7 +8503,7 @@
 			(uuid "7bf281f2-53d6-4e75-9ee2-7cf3863698e0")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8540,7 +8540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 58.42 0)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 			(uuid "af98212b-47e7-4af7-aa04-9ffd80702e56")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "R?")
 					(unit 1)
@@ -8641,7 +8641,7 @@
 			(uuid "dfabd55d-3137-4a8a-939a-9cac50a94333")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -8709,7 +8709,7 @@
 			(uuid "3dd4aeee-afba-4f53-8c31-63c4593c57a2")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -8777,7 +8777,7 @@
 			(uuid "de6b4e08-ec8c-4e6d-923e-17bbc60d6fdd")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -8816,7 +8816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 203.2 26.67 0)
 			(effects
 				(font
@@ -8849,7 +8849,7 @@
 			(uuid "fda23ad3-e8dd-44da-a5e3-0accde3a4672")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "C?")
 					(unit 1)
@@ -8917,7 +8917,7 @@
 			(uuid "a93ee13f-f67f-46a9-8d9d-82cdc49f8013")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
@@ -8985,7 +8985,7 @@
 			(uuid "e095fde8-c8c2-45cf-a41f-3ec340f9db37")
 		)
 		(instances
-			(project ""
+			(project "67keys-trackpoint"
 				(path "/ae18c8a2-419a-4730-bfae-35fc89603545/00000000-0000-0000-0000-00005f37c2dc"
 					(reference "#PWR?")
 					(unit 1)
