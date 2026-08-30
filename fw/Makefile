@@ -1,5 +1,5 @@
 ##############################################################################
-BUILD = build
+BUILD = make/build
 BIN = 67key
 BOSSA = ~/.arduino15/packages/arduino/tools/bossac/1.7.0/bossac
 PORT = /dev/serial/by-id/usb-DNBDMR_67keyboard_123456-if00
@@ -23,31 +23,31 @@ LDFLAGS += -Wl,--gc-sections
 LDFLAGS += -Wl,--start-group -lm -Wl,--end-group
 LDFLAGS += --specs=nano.specs
 LDFLAGS += -Wl,-Map=$(BUILD)/$(BIN).map
-LDFLAGS += -Wl,--script=../linker/samd21g18.ld
+LDFLAGS += -Wl,--script=./linker/samd21g18.ld
 
 INCLUDES += \
-  -I../include \
-  -I../tinyusb/src \
-  -I..
+  -Iinclude \
+  -Itinyusb/src \
+  -I.
 
 SRCS += \
-  ../main.c \
-  ../startup_samd21.c \
-  ../tinyusb/src/tusb.c \
-  ../tinyusb/src/common/tusb_fifo.c \
-  ../tinyusb/src/device/usbd.c \
-  ../tinyusb/src/device/usbd_control.c \
-  ../tinyusb/src/portable/microchip/samd/dcd_samd.c \
-  ../tinyusb/src/class/cdc/cdc_device.c \
-  ../tinyusb/src/class/hid/hid_device.c \
-  ../usb_descriptors.c \
-  ../led.c \
-  ../spi_master.c \
-  ../trackpoint.c \
-  ../config.c \
-  ../i2c_master.c \
-  ../matrix.c \
-  ../keymap.c
+  ./main.c \
+  ./startup_samd21.c \
+  ./tinyusb/src/tusb.c \
+  ./tinyusb/src/common/tusb_fifo.c \
+  ./tinyusb/src/device/usbd.c \
+  ./tinyusb/src/device/usbd_control.c \
+  ./tinyusb/src/portable/microchip/samd/dcd_samd.c \
+  ./tinyusb/src/class/cdc/cdc_device.c \
+  ./tinyusb/src/class/hid/hid_device.c \
+  ./usb_descriptors.c \
+  ./led.c \
+  ./spi_master.c \
+  ./trackpoint.c \
+  ./config.c \
+  ./i2c_master.c \
+  ./matrix.c \
+  ./keymap.c
 
 DEFINES += \
   -D__SAMD21E18A__ \
@@ -78,8 +78,8 @@ $(BUILD)/$(BIN).bin: $(BUILD)/$(BIN).elf
 
 uf2: $(BUILD)/$(BIN).hex
 	@echo PROGRAM $^
-	./force_reset.py --uf2 $(PORT)
-	./uf2conv.py $^
+	make/force_reset.py --uf2 $(PORT)
+	make/uf2conv.py $^
 
 disasm: $(BUILD)/$(BIN).elf
 	@echo DISASSEMBLE $^
@@ -87,7 +87,7 @@ disasm: $(BUILD)/$(BIN).elf
 
 bossa: $(BUILD)/$(BIN).bin
 	@echo BOSSA @^
-	./force_reset.py --caterina $(PORT)
+	make/force_reset.py --caterina $(PORT)
 	$(BOSSA) -e -w -v -R -U true -p $(BOOTPORT) $^
 
 directory:
@@ -102,4 +102,3 @@ clean:
 	@-rm -rf $(BUILD)
 
 -include $(wildcard $(BUILD)/*.d)
-
