@@ -1,5 +1,5 @@
 ##############################################################################
-BUILD = make/build
+BUILD = build
 BIN = 67key
 BOSSA = ~/.arduino15/packages/arduino/tools/bossac/1.7.0/bossac
 PORT = /dev/serial/by-id/usb-DNBDMR_67keyboard_123456-if00
@@ -78,8 +78,8 @@ $(BUILD)/$(BIN).bin: $(BUILD)/$(BIN).elf
 
 uf2: $(BUILD)/$(BIN).hex
 	@echo PROGRAM $^
-	make/force_reset.py --uf2 $(PORT)
-	make/uf2conv.py $^
+	scripts/force_reset.py --uf2 $(PORT)
+	scripts/uf2conv.py $^
 
 disasm: $(BUILD)/$(BIN).elf
 	@echo DISASSEMBLE $^
@@ -87,7 +87,7 @@ disasm: $(BUILD)/$(BIN).elf
 
 bossa: $(BUILD)/$(BIN).bin
 	@echo BOSSA @^
-	make/force_reset.py --caterina $(PORT)
+	scripts/force_reset.py --caterina $(PORT)
 	$(BOSSA) -e -w -v -R -U true -p $(BOOTPORT) $^
 
 directory:

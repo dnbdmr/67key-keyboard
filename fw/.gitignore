@@ -54,3 +54,5 @@ dkms.conf
 tags
 *.uf2
 *.swp
+
+build/
