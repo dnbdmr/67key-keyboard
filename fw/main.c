@@ -145,6 +145,10 @@ void usb_setup(void)
 	PORT->Group[0].PMUX[PIN_PA25G_USB_DP/2].reg |= MUX_PA25G_USB_DP << (4 * (PIN_PA25G_USB_DP & 0x01u));
 }
 
+void USB_Handler(void) {
+  dcd_int_handler(0);
+}
+
 //-----------------------------------------------------------------------------
 // Invoked when usb bus is suspended
 // remote_wakeup_en : if host allow us	to perform remote wakeup
