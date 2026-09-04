@@ -26,7 +26,7 @@ uint8_t keymap_keys[2][MATRIX_REG_COUNT][8] =
 			HID_KEY_ARROW_LEFT },
 		{	//Register 1
 			0,		// HID_KEY_SHIFT_RIGHT,
-			HID_KEY_RETURN,
+			HID_KEY_ENTER,
 			HID_KEY_BACKSLASH,
 			HID_KEY_BACKSPACE,
 			0,
@@ -109,7 +109,7 @@ uint8_t keymap_keys[2][MATRIX_REG_COUNT][8] =
 			0 },
 		{	// Register 1
 			0,
-			HID_KEY_RETURN,
+			HID_KEY_ENTER,
 			0,
 			0,
 			0,
