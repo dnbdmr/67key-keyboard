@@ -36,7 +36,6 @@ SRCS += \
   ./tinyusb/src/tusb.c \
   ./tinyusb/src/common/tusb_fifo.c \
   ./tinyusb/src/device/usbd.c \
-  ./tinyusb/src/device/usbd_control.c \
   ./tinyusb/src/portable/microchip/samd/dcd_samd.c \
   ./tinyusb/src/class/cdc/cdc_device.c \
   ./tinyusb/src/class/hid/hid_device.c \
