@@ -1,11 +1,12 @@
 # 67 Key keyboard with trackpoint
 
+- Uses with uf2-samdx1 bootloader. Linker screipt offsetx by 0x2000. https://github.com/dnbdmr/uf2-samdx1
+
 ## TODO
 
 - [ ] Finish keymap/layers
 - [ ] Make tp reset non blocking?
 - [ ] uf2: turn down brightness on rgbs
-- [ ] Set serial number in descriptor? check uf2 source. add to
   tud\_descriptor\_string\_cb
 - [ ] Merge spi master and matrix?
 - [ ] Make force reset universal
@@ -13,8 +14,9 @@
 - [ ] Figure out clean way to have keys do things outside of keymap
 - [ ] Set up Fn lock
 - [ ] Make menu/help, move to config.c?
-- [ ] Intermittent wake up from sleep after putting computer to sleep. Doesn't
+- [ ] Intermittent wake up from sleep after putting computer to sleep.
 - [ ] implement idle rate switch
+- [x] Set serial number in descriptor? check uf2 source. add to
   wake up computer.
 - [x] sends 3 reports whenever any key changes. problem?
 - [x] limit scrolling to 1 at a time.
